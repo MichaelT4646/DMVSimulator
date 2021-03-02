@@ -4,7 +4,9 @@ public class MainCode {
 		
 		System.out.println("Hello, welcome to th DMV!");
 		Random random = new Random();
+		Random random2 = new Random();
 		int randomNumber = random.nextInt(201);
+		int miracle = random.nextInt(101);
 		int counter = 1 + randomNumber;
 		
 		System.out.println("Here is your number " + randomNumber + ". Please wait until your number is called.");
@@ -20,8 +22,12 @@ public class MainCode {
 				System.out.println("Now calling " + counter +  "!");
 			}
 		}
-		
-		System.out.println("You do not have the required documents, please leave!");
+		if(miracle == 100) {
+			System.out.println("Huh... looks like you are all set.");
+		}
+		else {
+			System.out.println("You do not have the required documents, please leave!");
+		}
 		
 	}
 }
