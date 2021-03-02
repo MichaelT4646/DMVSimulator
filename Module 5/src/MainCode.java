@@ -22,15 +22,20 @@ public class MainCode {
 				System.out.println("Now calling " + counter +  "!");
 			}
 		}
+
 		if(miracle == 100) {
+      
 			System.out.println("Huh... looks like you are all set.");
+      
 		}
 		else {
-			System.out.println("Why you- you would dare to come in here and waste your and others time expiring away\n" +
+      
+		System.out.println("Why you- you would dare to come in here and waste your and others time expiring away\n" +
 				"in this endless forsaken abyss of a queue, only to not have the necessary papers for us?\n" +
 				"You disgust me beyond belief. Get out of my sight, before I sentence you to death for the\n" +
-				"treason you have committed against this land today.");
-		}
+				"treason you have committed against this land today.\n" +
+				"*sm64BowserLaugh.mp4*");
+
 		
 	}
 }
